@@ -75,6 +75,32 @@ appTemplate:
                 - notificationDuration: ''
             createdAt: 2020-11-28T23:21:14.263Z
             updatedAt: 2020-11-28T23:21:14.263Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - horizontalAlign: left
+                - truncateOverflow: false
+                - verticalAlign: center
+                - scrollOverflow: false
+                - tooltipText: ''
+                - value: "**Hello** friend! \U0001F603\n\n"
+                - renderAsHtml: false
+                - backgroundColor: '#0000'
+                - textColor: '#312929'
+                - renderAsMarkdown: true
+                - id: text1
+            position2:
+              position2:
+                row: 3
+                col: 4
+                height: 1
+                width: 3
+            createdAt: 2020-11-28T23:21:18.783Z
+            updatedAt: 2020-11-28T23:21:18.783Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
