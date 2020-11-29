@@ -1,0 +1,42 @@
+version: 43.0.9
+pageUuid: dc6b0356-31d6-11eb-b0e6-7725e3718540
+appTemplate:
+  plugins:
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: RESTQuery
+            resourceName: Test resource 9
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - query: ''
+                - privateParams: []
+                - triggersOnSuccess: []
+                - data: null
+                - showSuccessToaster: true
+                - triggersOnFailure: []
+                - confirmationMessage: null
+                - watchedParams: []
+                - timestamp: 0
+                - runWhenPageLoads: false
+                - queryTimeout: '10001'
+                - requireConfirmation: false
+                - queryThrottleTime: '750'
+  urlFragmentDefinitions: []
+  pageLoadValueOverrides: []
+  customDocumentTitle: ''
+  isGlobalWidget: false
+  isFetching: false
+  instrumentationEnabled: false
+  customDocumentTitleEnabled: false
+  version: null
+  responsiveLayoutDisabled: false
+  createdAt: null
