@@ -75,6 +75,38 @@ appTemplate:
                 - notificationDuration: ''
             createdAt: 2020-11-29T00:07:25.997Z
             updatedAt: 2020-11-29T00:07:25.997Z
+      - button1:
+          pluginTemplate:
+            id: button1
+            type: widget
+            subtype: ButtonWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - color: '#3c92dc'
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - value: Submit
+                - exportQuery: ''
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - id: button1
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                row: 7
+                col: 1
+                height: 1
+                width: 2
+            createdAt: 2020-11-29T00:07:34.660Z
+            updatedAt: 2020-11-29T00:07:34.660Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
