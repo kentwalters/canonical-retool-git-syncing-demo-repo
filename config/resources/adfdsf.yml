@@ -1,0 +1,47 @@
+name: adfdsf
+type: restapi
+environment: production
+host: null
+port: null
+databaseName: null
+databaseUsername: null
+databasePassword: null
+ssl: null
+editPrivilege: null
+options:
+  baseURL: 'https://asdkjfnsd.com'
+  headers:
+    - - asdf
+      - asdf
+    - - a
+      - s
+  urlparams:
+    - - ''
+      - ''
+  auth0_domain: ''
+  oauth2_scope: ''
+  auth0_clientID: ''
+  authentication: ''
+  basic_password: ''
+  basic_username: ''
+  oauth2_auth_url: ''
+  cookiesToForward: []
+  oauth2_client_id: ''
+  forwardAllCookies: false
+  auth0_clientSecret: ''
+  extraBodyKeyValues:
+    - - ''
+      - ''
+  verify_session_url: ''
+  oauth2_access_token: ''
+  oauth2_callback_url: 'http://52.54.178.204:3000/oauth/user/oauthcallback'
+  session_cookie_name: ''
+  oauth2_client_secret: ''
+  oauth2_refresh_token: ''
+  auth0_custom_audience: ''
+  oauth1_signature_method: HMAC-SHA1
+  oauth2_access_token_url: ''
+dynamicallyQueryable: false
+createdAt: 2020-11-29T21:03:05.316Z
+updatedAt: 2020-11-30T01:01:36.568Z
+version: '1.0'
