@@ -1,0 +1,190 @@
+version: 43.0.9
+pageUuid: 8f0ea3ce-32a8-11eb-8298-1fd740572d33
+appTemplate:
+  plugins:
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: RESTQuery
+            resourceName: adfdsf
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - paginationLimit: ''
+                - body: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - paginationPaginationField: ''
+                - headers: ''
+                - paginationEnabled: false
+                - query: ''
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: 0
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - cookies: ''
+                - metadata: null
+                - triggersOnFailure: []
+                - errorTransformer: >-
+                    // The variable 'data' allows you to reference the request's
+                    data in the transformer. 
+
+                    // example: return data.find(element => element.isError)
+
+                    return data.error
+                - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - enableErrorTransformer: false
+                - paginationDataField: ''
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10001'
+                - requireConfirmation: false
+                - type: GET
+                - queryFailureConditions: ''
+                - enableCaching: false
+                - bodyType: json
+                - queryThrottleTime: '750'
+                - notificationDuration: ''
+            createdAt: 2020-11-30T01:08:31.266Z
+            updatedAt: 2020-11-30T01:08:31.266Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - horizontalAlign: left
+                - truncateOverflow: false
+                - verticalAlign: center
+                - scrollOverflow: false
+                - tooltipText: ''
+                - value: "**Hello** friend! \U0001F603\n\n"
+                - renderAsHtml: false
+                - backgroundColor: '#0000'
+                - textColor: '#312929'
+                - renderAsMarkdown: true
+                - id: text1
+            position2:
+              position2:
+                row: 1
+                col: 2
+                height: 1
+                width: 3
+            createdAt: 2020-11-30T01:08:37.294Z
+            updatedAt: 2020-11-30T01:08:37.834Z
+      - text2:
+          pluginTemplate:
+            id: text2
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - horizontalAlign: left
+                - truncateOverflow: false
+                - verticalAlign: center
+                - scrollOverflow: false
+                - tooltipText: ''
+                - value: "**Hello** friend! \U0001F603\n\n"
+                - renderAsHtml: false
+                - backgroundColor: '#0000'
+                - textColor: '#312929'
+                - renderAsMarkdown: true
+                - id: text2
+            position2:
+              position2:
+                row: 3
+                height: 1
+                width: 3
+            createdAt: 2020-11-30T01:08:39.487Z
+            updatedAt: 2020-11-30T01:08:40.005Z
+      - text3:
+          pluginTemplate:
+            id: text3
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - horizontalAlign: left
+                - truncateOverflow: false
+                - verticalAlign: center
+                - scrollOverflow: false
+                - tooltipText: ''
+                - value: "**Hello** friend! \U0001F603\n\n"
+                - renderAsHtml: false
+                - backgroundColor: '#0000'
+                - textColor: '#312929'
+                - renderAsMarkdown: true
+                - id: text3
+            position2:
+              position2:
+                row: 4
+                col: 4
+                height: 1
+                width: 3
+            createdAt: 2020-11-30T01:08:43.474Z
+            updatedAt: 2020-11-30T01:08:44.001Z
+      - text4:
+          pluginTemplate:
+            id: text4
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - horizontalAlign: left
+                - truncateOverflow: false
+                - verticalAlign: center
+                - scrollOverflow: false
+                - tooltipText: ''
+                - value: "**Hello** friend! \U0001F603\n\n"
+                - renderAsHtml: false
+                - backgroundColor: '#0000'
+                - textColor: '#312929'
+                - renderAsMarkdown: true
+                - id: text4
+            position2:
+              position2:
+                row: 8
+                col: 1
+                height: 1
+                width: 3
+            createdAt: 2020-11-30T01:08:45.865Z
+            updatedAt: 2020-11-30T01:08:46.381Z
+  urlFragmentDefinitions: []
+  pageLoadValueOverrides: []
+  customDocumentTitle: ''
+  isGlobalWidget: false
+  isFetching: false
+  instrumentationEnabled: false
+  customDocumentTitleEnabled: false
+  version: 2.64.48
+  responsiveLayoutDisabled: false
+  createdAt: null
